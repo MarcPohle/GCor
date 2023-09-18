@@ -13,9 +13,9 @@ QFcor_plot(x, y, grid, xlim, ylim)
 
 \item{grid}{regulates the grid size (which is grid^2) of the equal-spaced grid}
 
-\item{xlim}{limits for the x-axis}
+\item{xlim}{limits for the x-axis, defaults to (min(x),max(x))}
 
-\item{ylim}{limits for the y-axis}
+\item{ylim}{limits for the y-axis, defaults to (min(y),max(y))}
 }
 \value{
 plot of the quantile function correlation of x and y
