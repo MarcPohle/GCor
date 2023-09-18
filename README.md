@@ -62,7 +62,19 @@ Tcor(x,y,a=0,b=1)
 
 Qcor(x,y,alpha=0.5,beta=0.5)
 
+# take a look at the scatter plot
+
+scatter_plot(x,y)
+
 
 # plot CDF correlation
 
-CDFcor_plot(x,y,grid=100,xlim=c(-2,2),ylim=c(-2,2))
+CDFcor_plot(x,y,grid=100,xlim=c(-1.5,1.5),ylim=c(-1.5,1.5))
+
+
+# plot quantile function correlation
+
+CDFcor_plot(x,y,grid=100,xlim=c(0.1,0.9),ylim=c(0.1,0.9))
+
+```
+
