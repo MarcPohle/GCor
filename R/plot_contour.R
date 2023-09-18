@@ -1,4 +1,4 @@
-#' @title contour_plot
+#' @title plot_contour
 #'
 #' @description visualizes a two-dimensional function with a contour plot on an equal-spaced grid with a binned colour scheme
 #'
