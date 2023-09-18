@@ -27,3 +27,42 @@ library(GCor)
 ```
 
 ## Example
+
+This is a simple example, where we compute some generalised correlations from a 
+bivariate normal sample.
+
+```
+
+# use the MASS-package to simulate a bivariate normal sample
+
+install.packages("MASS") 
+library("MASS")
+
+n <- 1000 # sample size
+mu <- c(0,0) # mean
+Sigma <- matrix(data=c(1,0.5,0.5,1),nrow=2) # variance matrix
+data <- mvrnorm(n = n, mu=mu, Sigma=Sigma)
+x <- data[,1]
+y <- data[,2]
+
+
+# calculate mean correlation and for comparison Pearson correlation
+# (the two are equal [in population] for a joint normal distribution)
+
+mean_cor(x,y)
+cor(x,y)
+
+
+# calculate threshold correlation at thresholds 0 and 1
+
+Tcor(x,y,a=0,b=1)
+
+
+# calculate quantile correlation at the the medians, i.e. median correlation
+
+Qcor(x,y,alpha=0.5,beta=0.5)
+
+
+# plot CDF correlation
+
+CDFcor_plot(x,y,grid=100,xlim=c(-2,2),ylim=c(-2,2))

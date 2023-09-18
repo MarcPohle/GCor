@@ -11,7 +11,7 @@
 #'
 #' @return plot of the quantile function correlation of x and y
 #'
-#' @importFrom ggplot2 ggplot
+#' @importFrom tidyverse ggplot expand_grid
 #' @importFrom latex2exp TeX
 
 
