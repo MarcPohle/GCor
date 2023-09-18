@@ -13,8 +13,8 @@
 #'
 #' @return contour plot of f
 #'
-#' @importFrom tidyverse ggplot expand_grid
-
+#' @importFrom ggplot2 ggplot
+#' @importFrom tidyr expand_grid
 
 plot_contour <- function(f,xlim=c(min(x),max(x)),ylim=c(min(y),max(y)),grid,xlab,ylab,bins){
   x <- seq(xlim[1], xlim[2], length.out = grid)

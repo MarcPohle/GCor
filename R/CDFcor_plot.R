@@ -11,7 +11,8 @@
 #'
 #' @return plot of the CDF correlation of x and y
 #'
-#' @importFrom tidyverse ggplot expand_grid
+#' @importFrom ggplot2 ggplot
+#' @importFrom tidyr expand_grid
 #' @importFrom latex2exp TeX
 
 CDFcor_plot <- function(x,y,grid,xlim,ylim){
