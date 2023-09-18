@@ -6,7 +6,7 @@ Authors@R:
     c(person("Tobias", "Fissler", role = "aut"), person("Marc-Oliver", "Pohle", email="marc-oliver.pohle@h-its.org", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-0020-3604")))
 Description: The package provides functions to compute mean, quantile and threshold correlations. Further, it allows to create plots of quantile function and CDF correlation. 
-URL: https://github.com/MarcPohle/quantoptimR
+URL: https://github.com/MarcPohle/GCor
 License: `use_gpl3_license()`
 Encoding: UTF-8
 Imports: ggplot2 latex2exp
