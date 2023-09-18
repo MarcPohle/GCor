@@ -4,8 +4,8 @@
 #'
 #'
 #' @param f a function in two variables, x and y
-#' @param xlim limits for the x-axis
-#' @param ylim limits for the y-axis
+#' @param xlim limits for the x-axis, defaults to (min(x),max(x))
+#' @param ylim limits for the y-axis, defaults to (min(y),max(y))
 #' @param grid regulates the grid size (which is grid^2) of the equal-spaced grid
 #' @param xlab: label for the x-axis
 #' @param ylab: label for the y-axis
@@ -16,7 +16,7 @@
 #' @importFrom ggplot2 ggplot
 
 
-plot_contour <- function(f,xlim,ylim,grid,xlab,ylab,bins){
+plot_contour <- function(f,xlim=c(min(x),max(x)),ylim=c(min(y),max(y)),grid,xlab,ylab,bins){
   x <- seq(xlim[1], xlim[2], length.out = grid)
   y <- seq(ylim[1], ylim[2], length.out = grid)
   data <- expand_grid(x = x, y = y)

@@ -6,8 +6,8 @@
 #' @param x a numeric vector
 #' @param y a numeric vector of the same length as x
 #' @param grid regulates the grid size (which is grid^2) of the equal-spaced grid
-#' @param xlim limits for the x-axis
-#' @param ylim limits for the y-axis
+#' @param xlim limits for the x-axis, defaults to (min(x),max(x))
+#' @param ylim limits for the y-axis, defaults to (min(y),max(y))
 #'
 #' @return plot of the CDF correlation of x and y
 #'
