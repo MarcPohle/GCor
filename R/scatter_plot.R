@@ -13,8 +13,9 @@
 #'
 #' @return scatter plot of x and y
 #'
-#' @importFrom ggplot2 ggplot
-#' @importFrom tidyr expand_grid
+#'
+#' @export
+#' @import ggplot2
 
 
 scatter_plot <- function(x,y,bubbleplot=FALSE,xlab,ylab,xlim=c(min(x),max(x)),ylim=c(min(y),max(y))){

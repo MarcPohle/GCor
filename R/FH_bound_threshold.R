@@ -10,7 +10,9 @@
 #' @param upper if TRUE (default) the upper bound is computed, if FALSE the lower bound
 #'
 #' @return Fréchet-Hoeffding upper/lower bound of x and y at a and b
-
+#'
+#'
+#' @export
 
 
 FH_bound_threshold <- function(x,y,a,b,upper=TRUE){

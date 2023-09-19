@@ -10,7 +10,9 @@
 #'
 #'
 #' @return threshold correlation of x and y at a and b
-
+#'
+#'
+#' @export
 
 
 Tcor <- function(x,y,a,b){

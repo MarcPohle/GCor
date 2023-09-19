@@ -10,7 +10,9 @@
 #'
 #'
 #' @return quantile covariance of x and y at alpha and beta
-
+#'
+#'
+#' @export
 
 
 Qcov <- function(x,y,alpha,beta){

@@ -10,7 +10,9 @@
 #'
 #'
 #' @return threshold covariance of x and y at a and b
-
+#'
+#'
+#' @export
 
 
 Tcov <- function(x,y,a,b){

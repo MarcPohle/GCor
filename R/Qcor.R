@@ -10,7 +10,9 @@
 #'
 #'
 #' @return quantile correlation of x and y at alpha and beta
-
+#'
+#'
+#' @export
 
 
 Qcor <- function(x,y,alpha,beta){

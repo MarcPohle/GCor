@@ -10,8 +10,9 @@
 #' @param upper if TRUE (default) the upper bound is computed, if FALSE the lower bound
 #'
 #' @return Fréchet-Hoeffding upper/lower bound of x and y at alpha and beta
-
-
+#'
+#'
+#' @export
 
 FH_bound_quantile <- function(x,y,alpha,beta,upper=TRUE){
 

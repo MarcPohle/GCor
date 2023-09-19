@@ -7,7 +7,9 @@
 #' @param y a numeric vector of the same length as x
 #'
 #' @return mean correlation of x and y
-
+#'
+#'
+#' @export
 
 
 mean_cor <- function(x,y){
