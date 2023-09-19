@@ -6,10 +6,10 @@
 #' @param x a numeric vector
 #' @param y a numeric vector of the same length as x
 #' @param bubbleplot if TRUE uses a bubbleplot, which is useful to avoid overplotting for discrete variables, if FALSE (the default) draws a usual scatter plot
-#' @param xlab: label for the x-axis
-#' @param ylab: label for the y-axis
-#' @param xlim: limits for the x-axis, defaults to (min(x),max(x))
-#' @param ylim: limits for the y-axis, defaults to (min(y),max(y))
+#' @param xlab label for the x-axis
+#' @param ylab label for the y-axis
+#' @param xlim limits for the x-axis, defaults to (min(x),max(x))
+#' @param ylim limits for the y-axis, defaults to (min(y),max(y))
 #'
 #' @return scatter plot of x and y
 #'

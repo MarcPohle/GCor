@@ -7,8 +7,8 @@
 #' @param xlim limits for the x-axis, defaults to (min(x),max(x))
 #' @param ylim limits for the y-axis, defaults to (min(y),max(y))
 #' @param grid regulates the grid size (which is grid^2) of the equal-spaced grid
-#' @param xlab: label for the x-axis
-#' @param ylab: label for the y-axis
+#' @param xlab label for the x-axis
+#' @param ylab label for the y-axis
 #' @param bins number of colour bins
 #'
 #' @return contour plot of f
