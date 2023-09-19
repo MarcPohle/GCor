@@ -62,6 +62,7 @@ Tcor(x,y,a=0,b=1)
 
 Qcor(x,y,alpha=0.5,beta=0.5)
 
+
 # take a look at the scatter plot
 
 scatter_plot(x,y,xlab="x",ylab="y")
