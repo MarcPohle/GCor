@@ -13,7 +13,7 @@
 #'
 #'
 #' @export
-#' @importFrom latex2exp TeX
+#' @import latex2exp
 
 
 QFcor_plot <- function(x,y,grid,xlim,ylim){
